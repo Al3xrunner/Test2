@@ -36,7 +36,11 @@ section{
 
 .main-text{
     background-color: white;
-    margin-bottom: 20px;
+    margin-bottom: 1cm;
+    margin-top: 1cm;
+}
+.main-text p{
+    font-style: italic;
 }
 
 .row-container{
