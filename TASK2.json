@@ -2,21 +2,25 @@
     {
         "id": 1,
         "name": "Computer 1",
-        "active": true
+        "active": true,
+        "price": 472
     },
     {
         "id": 2,
         "name": "Computer 2",
-        "active": false
+        "active": false,
+        "price": 1460
     },
     {
         "id": 3,
         "name": "Computer 3",
-        "active": true
+        "active": true,
+        "price": 600
     },
     {
         "id": 4,
         "name": "Computer 4",
-        "active": false
+        "active": false,
+        "price": 1000
     }
 ]
