@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+    <element id="1">
+        <model>MSI GeForce RTX 4060 VENTUS 2X 8GB GDDR6 OC</model>
+        <power>19885</power>
+        <price>1349zl</price>
+    </element>
+    <element id="2">
+        <model>geforce 2 mx 400</model>
+        <power>4</power>
+        <price>45zl</price>
+    </element>
+    <element id="3">
+        <model>Intel Pentium E5700</model>
+        <power>1081</power>
+        <price>10zl</price>
+    </element>
+    <element id="4">
+        <model>RX 580</model>
+        <power>8855</power>
+        <price>2295zl</price>
+    </element>
+</root>

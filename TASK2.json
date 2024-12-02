@@ -1,0 +1,22 @@
+[
+    {
+        "id": 1,
+        "name": "Computer 1",
+        "active": true
+    },
+    {
+        "id": 2,
+        "name": "Computer 2",
+        "active": false
+    },
+    {
+        "id": 3,
+        "name": "Computer 3",
+        "active": true
+    },
+    {
+        "id": 4,
+        "name": "Computer 4",
+        "active": false
+    }
+]
