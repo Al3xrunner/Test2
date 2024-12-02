@@ -1,0 +1,94 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 1cm;
+    font-size: 24px;
+} 
+
+.form-container {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+form label {
+    display: block;
+    margin: 10px 0 5px;
+    font-weight: bold;
+}
+
+form input{
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #e0f7ff;
+    box-sizing: border-box;
+}
+
+.form-buttons {
+    display: flex; 
+    flex-direction: column; 
+    justify-content: space-between;
+    gap: 15px;
+}
+.check-box {
+    display: flex; 
+    flex-direction: row; 
+    gap: 3px;
+}
+.check-box {
+    display: flex; 
+    flex-direction: row; 
+    align-items: center;
+    gap: 5px; 
+}
+
+.check-box input[type="checkbox"] {
+    width: 20px; 
+    height: 20px; 
+    cursor: pointer; 
+}
+
+.check-box label {
+    font-size: 14px; 
+    cursor: pointer; 
+}
+
+.save-btn, .cancel-btn {
+    flex: none;
+    text-align: center;
+    background-color: orange;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+}
+
+.save-btn:hover, .cancel-btn:hover {
+    background-color: darkorange;
+}
+
+@media screen and (max-width: 480px) {
+    .form-container {
+        width: 90%;
+        padding: 15px;
+    }
+
+    form input{
+        font-size: 14px;
+    }
+}
